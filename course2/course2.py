@@ -1,6 +1,7 @@
-# To change this license header, choose License Headers in Project Properties.
-# To change this template file, choose Tools | Templates
-# and open the template in the editor.
-
-if __name__ == "__main__":
-    print("Hello World")
+class Program():
+    def __init__(self,*args,**kwargs):
+        self.lang = input("What language ? : ")
+        self.version = float(input("What version ? : "))
+        self.skill = input("What skill level ? : ")
+        
+p1 = Program()
